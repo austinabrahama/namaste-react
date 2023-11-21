@@ -8,13 +8,40 @@
     width: 150px;
 }
 
-.nav-container ul {
+.nav-items ul {
     display: flex;
     list-style-type: none;
     font-size: 24px;
 }
 
-.nav-container ul li {
+.nav-items ul li {
     padding: 10px;
     margin: 10px;
+}
+
+.res-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.res-card {
+    width: 200px;
+    /* height: 300px; */
+    padding: 5px;
+    line-height: 0.9;
+}
+
+.res-card:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.search {
+    padding: 10px;
+}
+
+.res-logo {
+    width: 100%;
+    max-height: 150px;
 }
